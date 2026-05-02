@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Mirza</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #000814, #001d3d);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00ff88;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+.active {
+    color: #00ff88;
+}
+
+/* SECTION */
+section {
+    padding: 60px 8%;
+}
+
+h2 {
+    color: #00ff88;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 40px;
+}
+
+/* IMAGE STYLE (NO CROP FIXED) */
+.grid img {
+    width: 100%;
+    height: auto; /* NO CROPPING */
+    object-fit: contain; /* SHOW FULL IMAGE */
+
+    border-radius: 12px;
+    border: 3px solid #00ff88;
+
+    background: #000; /* fills empty space nicely */
+    padding: 10px;
+
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.grid img:hover {
+    transform: scale(1.03);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">Mirza<span>.</span></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- CYBERSECURITY -->
+<section>
+    <h2>Cybersecurity Certifications</h2>
+    <div class="grid">
+        <img src="images/cert1.jpg" alt="Certification 1">
+        <img src="images/cert2.jpg" alt="Certification 2">
+    </div>
+</section>
+
+<!-- 2D DRAWINGS -->
+<section>
+    <h2>2D DRAWINGS</h2>
+    <div class="grid">
+        <img src="images/draw1.jpg" alt="2D DRAW  1">
+        <img src="images/draw2.jpg" alt="2D DRAW  2">
+    </div>
+</section>
+
+<!-- 3D RENDERING -->
+<section>
+    <h2>3D Rendering</h2>
+    <div class="grid">
+        <img src="images/render1.jpg" alt="Render1">
+        <img src="images/render2.jpg" alt="Render2">
+    </div>
+</section>
+
+</body>
+</html>

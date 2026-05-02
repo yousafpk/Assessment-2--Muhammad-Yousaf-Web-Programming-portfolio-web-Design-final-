@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ✅ SAME NAVBAR AS HOME -->
+<nav>
+<div class="logo">Mirza<span>.</span></div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html" class="active">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<!-- ABOUT SECTION -->
+<div class="section">
+
+<h2 class="section-title">About Me</h2>
+
+<!-- INTRO -->
+<div class="card">
+<p>
+I am a highly motivated Cybersecurity student currently pursuing a Bachelor of Science (Hons) in Cybersecurity. 
+I am passionate about protecting systems, understanding cyber threats, and building secure digital environments.
+
+Alongside my technical expertise, I bring creativity through 3D modelling and strong interpersonal skills through my experience in sales and perfumery.  
+</p>
+</div>
+
+<!-- GRID -->
+<div class="grid">
+
+<div class="card">
+<h3>Cybersecurity</h3>
+<p>
+Focused on network security, risk assessment, and system protection. 
+Learning how to identify vulnerabilities and defend against cyber attacks.
+</p>
+</div>
+
+<div class="card"> 
+<h3>3D Modelling</h3>
+<p>
+Creating high-quality models and realistic renders with attention to detail, lighting, and materials.
+</p>
+</div>
+
+<div class="card">
+<h3>Sales & Communication</h3>
+<p>
+Experienced in customer interaction, persuasion, and professional communication.
+</p>
+</div>
+
+<div class="card">
+<h3>Career Goal</h3>
+<p>
+To become a cybersecurity expert while continuing to grow in creative and business fields.
+</p>
+</div>
+
+</div>
+
+<!-- TIMELINE -->
+<div class="section">
+
+<h2 class="section-title">Experience & Education</h2>
+
+<div class="card">
+<h3>BS (Hons) Cybersecurity</h3>
+<p>Currently studying cybersecurity principles including network defense and risk analysis.</p>
+</div>
+
+<div class="card">
+<h3>3D Modelling Development</h3>
+<p>Building advanced rendering and visualization skills.</p>
+</div>
+
+<div class="card">
+<h3>Sales & Perfumery Experience</h3>
+<p>Developed strong communication and marketing skills.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

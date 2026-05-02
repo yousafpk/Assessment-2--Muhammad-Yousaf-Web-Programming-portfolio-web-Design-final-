@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+
+<nav>
+<div class="logo">Mirza<span>.</span></div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+
+<section>
+<h2 class="section-title">Contact Me</h2>
+
+<div class="card">
+<p>If you would like to collaborate, discuss opportunities, or learn more about my work, feel free to reach out using the form below.</p>
+</div>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<textarea rows="5" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<section style="margin-top:40px;">
+<div class="card">
+<h3>Contact Information</h3>
+<p><strong>Email:</strong> ysfmuhmmd@gmail.com</p>
+<p><strong>Location:</strong> United Arab Emirates</p>
+</div>
+</section>
+
+</section>
+
+</div>
+</body>
+</html>
