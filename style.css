@@ -1,0 +1,156 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e2e8f0;
+}
+
+/* FULL WIDTH CONTAINER */
+.container {
+  width: 100%;
+  padding: 40px 80px;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #22c55e;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+nav a:hover,
+.active {
+  color: #22c55e;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.hero-text span {
+  color: #22c55e;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #cbd5e1;
+}
+
+.hero img {
+  width: 280px;
+  border-radius: 15px;
+  border: 3px solid #22c55e;
+}
+
+/* BUTTON */
+.btn {
+  padding: 12px 28px;
+  background: linear-gradient(45deg, #22c55e, #16a34a);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* SECTION */
+.section {
+  margin-top: 80px;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #22c55e;
+}
+
+/* CARDS */
+.card {
+  background: #0f172a;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover {
+  border-color: #22c55e;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* FORM */
+form {
+  max-width: 500px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
